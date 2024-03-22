@@ -4,11 +4,10 @@
 # In[1]:
 
 
-from flask import Flask,request,render_template
-import sqlite3, datetime
+from flask import Flask, request, render_template
+import datetime
+import sqlite3
 from flask import Markup
-
-# In[ ]:
 
 app = Flask(__name__)
 
